@@ -13,7 +13,7 @@ namespace pandemic
             Khartoum,
             Kinshasa,
             HoChiMinhCity,
-            Johannesburg ,
+            Johannesburg,
             SaoPaulo,
             BuenosAires,
             Washington,
@@ -33,17 +33,18 @@ namespace pandemic
             Blue,
             Algiers,
             Istanbul,
-            Paris
+            Paris,
+            Baghdad,
+            Tehran,
+            Riyadh,
+            Karachi,
+            Kolkata,
+            Chennai,
+            Jakarta,
+            Shanghai
 
         };
 
-        // // void MexicoCity();
-        // // void Khartoum();
-        // // void HoChiMinhCity();
-        // // void Chicago();
-        // // void Johannesburg();
-        // // void SaoPaulo();
-        // // void BuenosAires();
-        // City Atlanta();
     };
+
 }

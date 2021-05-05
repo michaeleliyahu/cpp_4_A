@@ -2,6 +2,8 @@
 #include "Board.hpp"
 // #include "OperationsExpert.hpp"
 #include <iostream>
+#include <map>
+#include <list>
 namespace pandemic
 {
 
@@ -30,9 +32,11 @@ namespace pandemic
             this->_board = board();
             this->_city = citylist();
         }
+        // map<City::city_list, list<City::city_list>> read_file(std::ifstream &stram);
+
+        Player drive(City::city_list);
         Player take_card(City::city_list _city);
         Player build();
-        Player drive(City::city_list);
 
         Player fly_direct(City::city_list);
         Player treat(City::city_list);
@@ -41,5 +45,7 @@ namespace pandemic
         Player is_clean();
         Player discover_cure(Color _color);
         std::string role();
+        protected:
+        // static void read_file(std::ifstream &stram);
     };
 }
